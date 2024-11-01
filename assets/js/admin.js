@@ -1,0 +1,1 @@
+(()=>{var e,t;e=jQuery,t={ready:function(){e(document).on("click",".upwpforms-auth-btn",t.handleAuth)},handleAuth:function(t){t.preventDefault();var n=e(this).attr("href"),h=screen.width/2-300,r=screen.height/2-300;window.open(n,"upwpforms-auth","width=600,height=600,left="+h+",top="+r)}},e(document).ready(t.ready)})();
